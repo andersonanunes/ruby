@@ -1,0 +1,10 @@
+# por padrao chama as configurações definidas de ambiente e formato do report
+default: -p html_report -p json_report -p prd
+
+# ambientes
+prd: AMBIENTE=prd
+hlg: AMBIENTE=hlg
+
+# reports
+html_report: --no-source --color --format pretty -f html -o reports/features_report.html
+json_report: --no-source --color --format pretty --format json --out=reports/features_report.json

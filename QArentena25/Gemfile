@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem "cucumber", "~> 3.1.2" # versao do cucumber
+gem 'factory_bot' # ajuda a criar o corpo das requisicoes
+gem 'faker' # cria massa de dados para preencher campos
+gem 'httparty' # faz as requisicoes web
+gem 'rspec' # faz as comparacoes asserts

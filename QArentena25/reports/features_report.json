@@ -1,0 +1,213 @@
+[
+  {
+    "uri": "features/specs/users.feature",
+    "id": "users",
+    "keyword": "Funcionalidade",
+    "name": "Users",
+    "description": "    Validar operações da API users",
+    "line": 8,
+    "tags": [
+      {
+        "name": "@users",
+        "line": 7
+      }
+    ],
+    "comments": [
+      {
+        "value": "#encoding: UTF-8",
+        "line": 2
+      },
+      {
+        "value": "#author: Anderson Nunes",
+        "line": 3
+      },
+      {
+        "value": "#date: 31/05/21",
+        "line": 4
+      },
+      {
+        "value": "#version: 1.0",
+        "line": 5
+      }
+    ],
+    "elements": [
+      {
+        "id": "users;validar-get-api-users",
+        "keyword": "Cenario",
+        "name": "Validar GET API users",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@users",
+            "line": 7
+          },
+          {
+            "name": "@get_users",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "faço uma requisição GET para o serviço Users",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1048552900
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "o serviço Users deve responder com o código http 200",
+            "line": 14,
+            "output": [
+              "[{\"id\":1,\"userName\":\"User 1\",\"password\":\"Password1\"},{\"id\":2,\"userName\":\"User 2\",\"password\":\"Password2\"},{\"id\":3,\"userName\":\"User 3\",\"password\":\"Password3\"},{\"id\":4,\"userName\":\"User 4\",\"password\":\"Password4\"},{\"id\":5,\"userName\":\"User 5\",\"password\":\"Password5\"},{\"id\":6,\"userName\":\"User 6\",\"password\":\"Password6\"},{\"id\":7,\"userName\":\"User 7\",\"password\":\"Password7\"},{\"id\":8,\"userName\":\"User 8\",\"password\":\"Password8\"},{\"id\":9,\"userName\":\"User 9\",\"password\":\"Password9\"},{\"id\":10,\"userName\":\"User 10\",\"password\":\"Password10\"}]"
+            ],
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5785000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "retorna a lista de usuários",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9570000
+            }
+          }
+        ]
+      },
+      {
+        "id": "users;validar-get-api-users-com-id",
+        "keyword": "Cenario",
+        "name": "Validar GET API users com ID",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@users",
+            "line": 7
+          },
+          {
+            "name": "@get_users",
+            "line": 17
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "faço uma requisição GET para o serviço Users passando um ID",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 833726300
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "o serviço Users deve responder com o código http 200",
+            "line": 20,
+            "output": [
+              "{\"id\":10,\"userName\":\"User 10\",\"password\":\"Password10\"}"
+            ],
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "retorna o usuário",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129800
+            }
+          }
+        ]
+      },
+      {
+        "id": "users;validar-post-api-users",
+        "keyword": "Cenario",
+        "name": "Validar POST API Users",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@users",
+            "line": 7
+          },
+          {
+            "name": "@post_users",
+            "line": 23
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "faço uma requisição POST para o serviço Users",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5101911100
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "o serviço Users deve responder com o código http 200",
+            "line": 26,
+            "output": [
+              "{\"id\":23,\"userName\":\"Torrie Herzog\",\"password\":\"752854\"}"
+            ],
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67200
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "retorna o usuário criado",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/users_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74300
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
