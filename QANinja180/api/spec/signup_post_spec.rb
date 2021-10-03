@@ -17,7 +17,7 @@ describe "POST/signup" do
 
 	context "usuario ja existe" do
 		before(:all) do
-			payload = {name: "Anderson", email: "annunes@gmail.com", password: "pwd123"}
+			payload = {name: "Anderson", email: "to@mate.com", password: "pwd123"}
 			Signup.new.create(payload)
 			@result = Signup.new.create(payload)
 		end
