@@ -1,6 +1,3 @@
-require_relative "routes/sessions"
-require_relative "helpers"
-
 # DRY Don`t Repeat Yourself => Não se Repita
 
 describe "POST /sessions" do
