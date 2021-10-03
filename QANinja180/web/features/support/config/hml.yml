@@ -1,0 +1,2 @@
+base_dir: http://rocklov-web:3000
+mongo_db: mongodb://rocklov-db:27017/rocklov
