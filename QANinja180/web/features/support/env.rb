@@ -3,7 +3,7 @@ require "capybara/cucumber"
 require "faker"
 
 # configuracao multiambiente
-CONFIG = YAML.load_file(File.join(Dir.pwd, "features/support/config/#{ENV["CONFIG"]}"))
+CONFIG = YAML.load_file(File.join(Dir.pwd, "/features/support/config/#{ENV["CONFIG"]}"))
 
 # configuracao cross browser
 case ENV["BROWSER"]

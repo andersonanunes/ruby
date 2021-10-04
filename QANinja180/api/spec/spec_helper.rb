@@ -4,7 +4,14 @@ require_relative "routes/signup"
 require_relative "libs/mongo"
 require_relative "helpers"
 
+require 'httparty'
+require 'httparty/request'
+require 'httparty/response/headers'
+
 RSpec.configure do |config|
+
+  include Helpers
+
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end

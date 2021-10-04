@@ -1,5 +1,5 @@
 # por padrao chama as configurações definidas de ambiente e formato do report
-default: -p html_report -p json_report -p hml -p chrome -p headless
+default: -p html_report -p json_report -p hml -p chrome
 
 # ambientes
 prd: AMBIENTE=prd
