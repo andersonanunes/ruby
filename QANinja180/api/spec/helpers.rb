@@ -1,3 +1,17 @@
+####################################################################################################
+# Name:           Helpers
+# Description:    Módulo Helpers - configurações adicionais
+# Project:        Curso QANinja180 - Projeto Rocklov API
+# Author:         Anderson Nunes - andersonanunes@hotmail.com
+# Date:           04/10/21
+# Last Revision:  
+# Revised By:     
+####################################################################################################
+
+require 'httparty'
+require 'httparty/request'
+require 'httparty/response/headers'
+
 module Helpers
   
   include HTTParty

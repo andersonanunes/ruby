@@ -1,3 +1,13 @@
+####################################################################################################
+# Name:           spec_helpr.rb
+# Description:    Arquivo de configuração do RSPEC
+# Project:        Curso QANinja180 - Projeto Rocklov API
+# Author:         Anderson Nunes - andersonanunes@hotmail.com
+# Date:           04/10/21
+# Last Revision:  
+# Revised By:     
+####################################################################################################
+
 require_relative "routes/equipos"
 require_relative "routes/sessions"
 require_relative "routes/signup"

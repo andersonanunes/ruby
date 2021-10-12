@@ -1,4 +1,12 @@
-# DRY Don`t Repeat Yourself => Não se Repita
+####################################################################################################
+# Name:           session_post_spec.rb
+# Description:    Steps para automação dos testes
+# Project:        Curso QANinja180 - Projeto Rocklov API
+# Author:         Anderson Nunes - andersonanunes@hotmail.com
+# Date:           04/10/21
+# Last Revision:  
+# Revised By:     
+####################################################################################################
 
 describe "POST /sessions" do
   

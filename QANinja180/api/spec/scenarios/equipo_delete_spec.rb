@@ -1,5 +1,5 @@
 ####################################################################################################
-# Name:           equipo_get_spec.rb
+# Name:           equipo_delete_spec.rb
 # Description:    Steps para automação dos testes
 # Project:        Curso QANinja180 - Projeto Rocklov API
 # Author:         Anderson Nunes - andersonanunes@hotmail.com
@@ -8,7 +8,9 @@
 # Revised By:     
 ####################################################################################################
 
-describe "GET /equipos/{equipo_id}" do
+# encoding: utf-8
+
+describe "DELETE /equipos/{equipo_id}" do
   
   before(:all) do
     payload = {email: "to@mate.com", password: "pwd123"}
@@ -16,36 +18,36 @@ describe "GET /equipos/{equipo_id}" do
     @user_id = result.parsed_response["_id"]
   end
   
+  # cenario
   context "obter unico equipo" do
     
+    # steps do BDD
     before(:all) do
       
-      # carrega o payload   
+      # DADO que eu tenho um novo equipamento   
       @payload = {
-        thumbnail: Helpers::get_thumb("kramer.jpg"), 
-        name: "Sanfona", 
-        category: "Outros", 
-        price: 499,
+        thumbnail: Helpers::get_thumb("pedais.jpg"), 
+        name: "Pedais do Tom Morello", 
+        category: "Áudio e Tecnologia", 
+        price: 199,
       }
 
       # remove a massa de dados cadastrada para poder reutilizar
       MongoDB.new.remove_equipo(@payload[:name], @user_id)
       
-      # eu tenho o id do equipamento
+      # E o id do equipamento
       equipo = Equipos.new.create(@payload, @user_id)
       @equipo_id = equipo.parsed_response["_id"]
 
-      # faz a requisição get por id
-      @result = Equipos.new.find_by_id(@equipo_id, @user_id)
+      # QUANDO faço a requisição DELETE por id
+      @result = Equipos.new.remove_by_id(@equipo_id, @user_id)
 
     end
 
-    it "deve retornar 200" do
-      expect(@result.code).to eql 200
-    end
-
-    it "deve retornar o nome" do
-      expect(@result.parsed_response).to include("name" => @payload[:name])
+    # validacao do teste
+    it "deve retornar 204" do
+      # ENTAO deve retornar status code 204
+      expect(@result.code).to eql 204
     end
 
   end
@@ -53,11 +55,11 @@ describe "GET /equipos/{equipo_id}" do
   context "equipo nao existe" do
 
     before(:all) do
-      @result = Equipos.new.find_by_id(MongoDB.new.get_mongo_id, @user_id)
+      @result = Equipos.new.remove_by_id(MongoDB.new.get_mongo_id, @user_id)
     end
 
-    it "deve retornar 404" do
-      expect(@result.code).to eql 404
+    it "deve retornar 204" do
+      expect(@result.code).to eql 204
     end
 
   end
