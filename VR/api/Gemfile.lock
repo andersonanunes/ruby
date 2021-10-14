@@ -8,7 +8,6 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     builder (3.2.4)
-    coderay (1.1.3)
     concurrent-ruby (1.1.9)
     cucumber (5.2.0)
       builder (~> 3.2, >= 3.2.4)
@@ -48,7 +47,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    method_source (1.0.0)
+    ipaddr (1.2.2)
     middleware (0.1.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
@@ -56,16 +55,13 @@ GEM
     minitest (5.14.4)
     multi_test (0.1.2)
     multi_xml (0.6.0)
-    net_http_ssl_fix (0.0.10)
-    openssl (2.2.0)
+    openssl (2.1.2)
+      ipaddr
     protobuf-cucumber (3.10.8)
       activesupport (>= 3.2)
       middleware
       thor
       thread_safe
-    pry (0.14.1)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -93,9 +89,7 @@ PLATFORMS
 DEPENDENCIES
   cucumber (= 5.2)
   httparty (= 0.20.0)
-  net_http_ssl_fix (= 0.0.10)
-  openssl (= 2.2)
-  pry (= 0.14.1)
+  openssl (= 2.1.2)
   rspec (= 3.10)
 
 BUNDLED WITH
