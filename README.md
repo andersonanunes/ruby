@@ -10,6 +10,10 @@ Automação de Front End com Ruby
 ## QArentena 25
 Automação de API Rest com Ruby
 
+## Projeto VR
+Automação de Front End com Cypress JS + Cucumber
+Automação de Back End com Ruby + Cucumber + HTTParty
+
 ## Conceitos Aplicados
 - Orientação a Objeto
 - Page Object
@@ -24,9 +28,11 @@ Automação de API Rest com Ruby
 - Capybara
 - RSpec
 - HTTParty
+- Site Prism
 - MongoDB
 - Docker
 - CMDer
-- Visual Studio
+- VSCode
 - Insomnia
 - Swagger
+- Cypress JS
