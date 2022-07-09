@@ -1,0 +1,8 @@
+[caps]
+platformName = "Android"
+deviceName = 'VirtualDevice'
+udid = '192.168.56.101:5555'
+app = "https://drive.google.com/uc?authuser=0&id=1I6rrd6B483fb5aZP6ky8pKzQvFZZrLwz&export=download"
+appPackage = "qaninja.com.pixel"
+appActivity = "qaninja.com.pixel.SplashScreen"
+automationName = 'uiautomator2'

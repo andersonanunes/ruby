@@ -41,5 +41,15 @@ class Equipos < BaseApi
 				"user_id": user_id, 
 			},
 		)
-	end	
+	end
+
+	# list equipos
+	def list(user_id)
+		return self.class.get(
+			"/equipos",
+			headers: { 
+				"user_id": user_id, 
+			},
+		)
+	end
 end

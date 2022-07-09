@@ -215,3 +215,87 @@ D, [2021-10-04T18:19:56.765602 #7176] DEBUG -- : MONGODB | Server rocklov-db:270
 D, [2021-10-04T18:19:56.765752 #7176] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
 D, [2021-10-04T18:19:56.778737 #7176] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
 D, [2021-10-04T18:19:56.778931 #7176] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T00:58:49.595070 #14064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T00:58:49.605813 #14064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T00:58:49.605951 #14064] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T00:58:49.606086 #14064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T00:58:49.609126 #14064] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T00:58:49.609273 #14064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T00:58:49.611225 #14064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T00:58:49.611378 #14064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T00:58:49.611468 #14064] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T00:58:49.611585 #14064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T00:58:49.624579 #14064] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T00:58:49.624769 #14064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:04:33.150959 #16684] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:04:33.151284 #16684] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:04:33.151387 #16684] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:04:33.151545 #16684] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:04:33.154569 #16684] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:04:33.154726 #16684] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:04:33.156159 #16684] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:04:33.156312 #16684] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:04:33.156492 #16684] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:04:33.156601 #16684] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:04:33.168946 #16684] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:04:33.169087 #16684] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:07:22.185373 #9424] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:07:22.185684 #9424] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:07:22.185814 #9424] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:07:22.185988 #9424] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:07:22.188566 #9424] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:07:22.188723 #9424] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:07:22.190387 #9424] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:07:22.190538 #9424] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:07:22.190642 #9424] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:07:22.190746 #9424] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:07:22.204874 #9424] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:07:22.205518 #9424] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:08:41.696392 #16828] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:08:41.696800 #16828] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:08:41.696999 #16828] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:08:41.697162 #16828] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:08:41.711458 #16828] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:08:41.711956 #16828] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:08:41.713493 #16828] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:08:41.713646 #16828] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:08:41.713774 #16828] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:08:41.713868 #16828] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:08:41.726428 #16828] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:08:41.726663 #16828] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:09:03.825314 #9888] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:09:03.825609 #9888] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:09:03.825718 #9888] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:09:03.825833 #9888] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:09:03.828564 #9888] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:09:03.828720 #9888] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:09:03.830343 #9888] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:09:03.830511 #9888] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:09:03.830597 #9888] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:09:03.830701 #9888] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:09:03.843876 #9888] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:09:03.844064 #9888] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:09:19.513162 #3324] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:09:19.513506 #3324] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:09:19.513616 #3324] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:09:19.513739 #3324] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:09:19.516284 #3324] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:09:19.516447 #3324] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:09:19.518175 #3324] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:09:19.518344 #3324] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:09:19.518435 #3324] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:09:19.518543 #3324] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:09:19.531794 #3324] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:09:19.532004 #3324] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:25:05.305557 #9940] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:25:05.305872 #9940] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:25:05.306031 #9940] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:25:05.306276 #9940] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:25:05.309039 #9940] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:25:05.309329 #9940] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-10-18T01:25:05.311426 #9940] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-10-18T01:25:05.311581 #9940] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-10-18T01:25:05.311697 #9940] DEBUG -- : MONGODB | Server rocklov-db:27017 initializing.
+D, [2021-10-18T01:25:05.311806 #9940] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[rocklov-db:27017] servers=[#<Server address=rocklov-db:27017 UNKNOWN>]>
+D, [2021-10-18T01:25:05.324740 #9940] DEBUG -- : MONGODB | Server description for rocklov-db:27017 changed from 'unknown' to 'standalone'.
+D, [2021-10-18T01:25:05.324889 #9940] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.

@@ -1,4 +1,5 @@
 require 'mongo'
+require 'bson'
 
 Mongo::Logger.logger = Logger.new("./logs/mongo.log")
 
@@ -22,7 +23,8 @@ class MongoDB
 
   def remove_equipo(name, user_id)
     # padrao do mongo que converte o object em string
-    obj_id = BSON::object_id.from_string(user_id)
+    obj_id = BSON::ObjectId.from_string(user_id)
+    
     @equipos.delete_many({name: name, user: obj_id})
   end
 
