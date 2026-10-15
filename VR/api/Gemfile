@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# Stack de backend definida no teste: Cucumber + Ruby + HTTParty
+gem 'cucumber', '~> 9.2'
+gem 'httparty', '~> 0.21.0'
+# rspec-expectations fornece o "expect(...).to" usado nos steps
+gem 'rspec-expectations', '~> 3.13'

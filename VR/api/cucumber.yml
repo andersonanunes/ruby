@@ -1,0 +1,2 @@
+# Perfil padrão: saída "pretty" no console + relatório HTML em reports/
+default: --format pretty --format html --out reports/report.html --publish-quiet

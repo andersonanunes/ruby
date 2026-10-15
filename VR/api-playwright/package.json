@@ -1,0 +1,13 @@
+{
+  "name": "vr-api-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teste de API (enumerations VRPAT) com Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.1"
+  }
+}

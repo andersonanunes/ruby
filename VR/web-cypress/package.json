@@ -1,0 +1,13 @@
+{
+  "name": "vr-web-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teste de frontend do site VR com Cypress",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "test:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "13.17.0"
+  }
+}

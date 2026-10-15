@@ -1,0 +1,13 @@
+{
+  "name": "vr-api-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teste de API (enumerations VRPAT) com Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "13.17.0"
+  }
+}

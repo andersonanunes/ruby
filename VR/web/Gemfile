@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# Frontend: Cucumber (BDD) + Capybara (DSL de navegação) + Selenium (driver do Chrome)
+# + SitePrism (Page Objects)
+gem 'capybara', '~> 3.39'
+gem 'cucumber', '~> 9.2'
+gem 'rspec-expectations', '~> 3.13'
+gem 'selenium-webdriver', '~> 4.9'
+gem 'site_prism', '~> 4.0'
+# selenium-webdriver 4.9 é a última versão compatível com Ruby 2.7, e o Selenium Manager embutido
+# nela não conhece o Chrome for Testing. O webdrivers baixa automaticamente o chromedriver
+# compatível com o Chrome instalado na máquina.
+gem 'webdrivers', '~> 5.3'

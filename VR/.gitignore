@@ -1,0 +1,20 @@
+# Relatórios e evidências são gerados a cada execução
+**/reports/*
+!**/reports/.gitkeep
+
+# Dependências instaladas localmente
+node_modules/
+.venv/
+
+# Saídas do Cypress
+**/cypress/screenshots/
+**/cypress/videos/
+**/cypress/downloads/
+
+# Saídas do Playwright
+**/test-results/
+**/playwright-report/
+
+# Saídas do Robot Framework
+**/results/
+__pycache__/

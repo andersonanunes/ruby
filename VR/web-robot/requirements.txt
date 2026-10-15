@@ -1,0 +1,4 @@
+robotframework==7.1.1
+robotframework-seleniumlibrary==6.7.0
+# Selenium 4.6+ traz o Selenium Manager, que baixa o chromedriver compatível com o Chrome instalado
+selenium==4.27.1
